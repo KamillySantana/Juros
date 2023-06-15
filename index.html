@@ -38,7 +38,7 @@
             var taxa = parseFloat(document.getElementById("taxa").value)
             var periodo = parseInt(document.getElementById("periodo").value)
 
-            var taxaDecimal = taxa / 1000
+            var taxaDecimal = taxa / 100
             var jurosSimples = capital * taxaDecimal * periodo
             var montanteSimples = capital + jurosSimples
 
